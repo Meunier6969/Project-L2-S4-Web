@@ -4,7 +4,7 @@
 }
 
 #side-bar {
-	position: absolute;
+	position: fixed;
 	
 	display: flex;
 	flex-direction: column;
