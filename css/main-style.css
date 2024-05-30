@@ -3,3 +3,10 @@ body {
     font-weight: 500;
     font-style: normal;
 }
+
+footer {
+}
+
+#ab-us {
+    color: var(--white);
+}
