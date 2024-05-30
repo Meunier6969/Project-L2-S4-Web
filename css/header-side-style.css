@@ -31,7 +31,7 @@
 #side-bar-tabs {
 	margin-top: auto;
 
-	background-color: blueviolet;
+	background-color: var(--test);
 	height: auto;
 }
 
