@@ -12,5 +12,5 @@ html {
 body {
 	color: var(--white);
 	background: var(--purpleBlue);
-	background-position: fixed;
+	background-attachment: fixed;
 }
