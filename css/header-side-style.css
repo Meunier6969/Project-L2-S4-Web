@@ -31,7 +31,7 @@
 #side-bar-tabs {
 	margin-top: auto;
 
-	background-color: blueviolet;
+	background-color: var(--test);
 	height: auto;
 }
 
@@ -44,7 +44,14 @@
 
 #side-bar-pied {
 	margin-top: auto;
-
+	height: auto;
+	
 	background-color: crimson;
-	height: 5em;
+}
+
+#side-bar-pied * {
+	margin: 1%;
+	background-color: chartreuse;
+	width: 95%;
+	height: 3em;
 }

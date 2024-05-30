@@ -2,6 +2,7 @@
 	--white: white;
 	--purpleBlue: radial-gradient(ellipse 100% 100% at 0% 0%, #271420 35%, transparent),
 				  radial-gradient(ellipse 100% 100% at 100% 100%, #1B1E37 35%, transparent), black;
+	--test: rgb(255, 167, 243);
 }
 
 html {
