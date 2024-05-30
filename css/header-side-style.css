@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-#side-bar {
+#side-bar-left {
 	position: fixed;
 	
 	display: flex;
@@ -15,7 +15,7 @@
 	background-color: aqua;
 }
 
-#side-bar * {
+#side-bar-left * {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
