@@ -5,6 +5,8 @@
 	width: 26em;
 	height: 39em;
 
+	margin: auto;
+
 }
 
 .penser-post-header {
@@ -17,17 +19,28 @@
 	margin-bottom: auto;
 }
 
+.penser-post-header-user {
+	background-color: orange;
+	margin-right: auto;
+
+	display: flex;
+	flex-direction: row;
+
+	height: 80%;
+	width: 90%;
+}
+
 .penser-post-header-icon {
 	background-color: red;
-	height: 80%;
-	margin: auto;
+	height: 100%;
 	aspect-ratio: 1;
 }
 
-.penser-post-header-user {
-	background-color: orange;
-	height: 80%;
-	aspect-ratio: 1;
+.penser-post-header-name {
+	background-color: orangered;
+	height: 100%;
+	width: 80%;
+	/* aspect-ratio: 1; */
 }
 
 .penser-post-header-menu {
@@ -36,7 +49,7 @@
 	margin-left: auto;
 
 	height: 80%;
-	aspect-ratio: 1;
+	width: 10%;
 }
 
 .penser-post-footer {
