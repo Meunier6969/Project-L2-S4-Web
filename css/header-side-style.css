@@ -126,12 +126,16 @@
 	background-color: brown;
 	width: 2em;
 	height: 2em;
+
+	align-items: center;
+}
+
+#side-bar-retractationarrow img {
+	height: 24pt;
+	margin: auto;
 }
 
 #side-bar-logo-title {
-	/* background-color: var(--white); */
-	/* font-size: 25pt;
-	color: var(--black); */
 	position: fixed;
 	left: 5%;
 	top: 1%;
