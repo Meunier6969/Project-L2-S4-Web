@@ -129,10 +129,15 @@
 }
 
 #side-bar-logo-title {
-	background-color: var(--white);
-	font-size: 25pt;
-	color: var(--black);
+	/* background-color: var(--white); */
+	/* font-size: 25pt;
+	color: var(--black); */
 	position: fixed;
 	left: 5%;
 	top: 1%;
+}
+
+#side-bar-logo-title img {
+	height: auto;
+	width: 150pt;
 }
