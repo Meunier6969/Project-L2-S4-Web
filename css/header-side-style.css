@@ -17,6 +17,8 @@
 	width: 40pt;
 	height: 100%;
 	background-color: rgb(0, 153, 255);
+
+	border-right: 3pt solid;
 }
 
 #side-bar-icons * {
@@ -120,6 +122,8 @@
 	background-color: coral;
 	width: 2em;
 	height: 100%;
+
+	border-right: 3pt solid;
 }
 
 #side-bar-retractationarrow {
