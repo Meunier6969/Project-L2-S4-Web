@@ -1,15 +1,32 @@
 #about-us-content {
-	margin-top: 1em;
 	width: 50em;
+	margin-bottom: 3em;
+}
+
+#about-us-content p {
+	font-size: 1.2em;
+	font-weight: 400;
+	text-align: justify;
+	overflow-wrap: normal;
+	margin: 0;
 }
 
 h1 {
+    margin-top: .3em;
+	margin-bottom: 1em;
     text-align: center;
-	font-size: 3.2em;
+	font-size: 4em;
 	font-style: italic;
 	font-weight: 700;
-	border-bottom: .1em solid var(--grey);
+	border-bottom: .07em solid var(--grey);
 }
 
-#about-us-title {
+b {
+	font-weight: 600;
+}
+
+ul {
+	font-size: 1.2em;
+	font-weight: 400;
+	margin: 0;
 }

@@ -38,3 +38,12 @@ footer p {
 footer p a {
     color: var(--white);
 }
+
+#tab {
+	white-space: pre-wrap;
+	tab-size: 10;
+}
+
+#pre-line {
+	white-space: pre-line;
+}
