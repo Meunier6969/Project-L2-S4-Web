@@ -9,7 +9,7 @@ function retract() {
         // Opening the side bar
         sideBar.style.display = "flex";
         arrowColumn.style.backgroundColor = "coral";
-        arrow.style.transform = "scaleX(-1)";
+        arrow.style.transform = "scaleX(1)";
         
         retracted = false;
         
@@ -18,7 +18,7 @@ function retract() {
         sideBar.style.display = "none";
         arrowColumn.style.backgroundColor = "rgba(0,0,0,0)";
         
-        arrow.style.transform = "scaleX(1)";
+        arrow.style.transform = "scaleX(-1)";
         retracted = true;
     }
 
