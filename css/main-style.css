@@ -29,7 +29,9 @@ body {
 }
 
 footer {
-    align-items: end;
+    position: fixed;
+	right: 1%;
+	bottom: 1%;
 }
 
 #ab-us {
