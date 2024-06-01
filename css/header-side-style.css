@@ -14,11 +14,11 @@
 	flex-direction: column;
 	align-items: center;
 
-	width: 40pt;
+	width: 3.5em;
 	height: 100%;
 	background-color: rgb(0, 153, 255);
 
-	border-right: 3pt solid;
+	border-right: 1em solid;
 }
 
 #side-bar-icons * {
@@ -42,7 +42,7 @@
 }
 
 #side-bar-icons-tabs * {
-	margin: 4pt 0;
+	margin: 0.4em 0;
 	background-color: chartreuse;
 	width: 100%;
 	height: 3em;
@@ -56,7 +56,7 @@
 }
 
 #side-bar-icons-pied * {
-	margin: 4pt;
+	margin: 0.4em;
 	background-color: chartreuse;
 	width: 100%;
 	height: 3em;
@@ -93,7 +93,7 @@
 }
 
 #side-bar-tabs * {
-	margin: 4pt 0;
+	margin: 0.4em 0;
 	background-color: chartreuse;
 	width: 95%;
 	height: 3em;
@@ -107,7 +107,7 @@
 }
 
 #side-bar-pied * {
-	margin: 4pt;
+	margin: 0.4em;
 	background-color: chartreuse;
 	width: 95%;
 	height: 3em;
@@ -135,7 +135,7 @@
 }
 
 #side-bar-retractationarrow img {
-	height: 24pt;
+	height: 2em;
 	margin: auto;
 }
 
@@ -147,5 +147,5 @@
 
 #side-bar-logo-title img {
 	height: auto;
-	width: 150pt;
+	width: 12em;
 }
