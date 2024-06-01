@@ -4,11 +4,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<link rel="stylesheet" href="../css/header-side-style.css">
 	<link rel="stylesheet" href="../css/colors.css">
 	<link rel="stylesheet" href="../css/main-style.css">
 	<link rel="stylesheet" href="../css/post-style.css">
 	<link rel="stylesheet" href="../css/stories-style.css">
+
+	<script src="../js/retractsidebar.js"></script>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +23,19 @@
 
 <body>
 	<header id="side-bar">
+		<div id="side-bar-icons">
+			<div id="side-bar-icons-logo"></div>
+			<div id="side-bar-icons-tabs">
+				<div id="side-bar-icons-home"></div>
+				<div id="side-bar-icons-search"></div>
+				<div id="side-bar-icons-achievement"></div>
+			</div>
+			<div id="side-bar-icons-pied">
+				<div id="side-bar-icons-profile"></div>
+				<div id="side-bar-icons-parameters"></div>
+			</div>
+		</div>
+
 		<div id="side-bar-left">
 			<div id="side-bar-logo"></div>
 			<div id="side-bar-tabs">
@@ -33,8 +49,8 @@
 			</div>
 		</div>
 
-		<div id="side-bar-right">
-			<div id="side-bar-retractationarrow"></div>
+		<div id="side-bar-arrow">
+			<div id="side-bar-retractationarrow" onclick="retract()"></div>
 		</div>
 	</header>
 

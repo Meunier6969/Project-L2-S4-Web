@@ -17,14 +17,8 @@ body {
 	flex-direction: column;
 	align-items: center;
 
-	/* J'arrive pas à centrer :'( */
-	/* position: static; */
-
+	/* Center the div */
 	width: 100%;
-
-	/* margin-left: auto;
-	margin-right: auto; */
-
 	margin: 0 auto;
 }
 
@@ -33,7 +27,7 @@ footer {
 	right: 1%;
 	bottom: 1%;
 
-    align-items: end;
+    /* align-items: end; */
 }
 
 #ab-us {
