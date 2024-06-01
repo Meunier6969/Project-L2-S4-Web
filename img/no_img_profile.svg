@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="500"
+   zoomAndPan="magnify"
+   viewBox="0 0 375 374.999991"
+   height="500"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.0"
+   id="svg5"
+   sodipodi:docname="no_img_profile.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="2.274"
+     inkscape:cx="249.78012"
+     inkscape:cy="250"
+     inkscape:window-width="2560"
+     inkscape:window-height="1351"
+     inkscape:window-x="1341"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2">
+    <clipPath
+       id="6d119857cb">
+      <path
+         d="M 15.628906 8.851562 L 59.371094 8.851562 L 59.371094 52.59375 L 15.628906 52.59375 Z M 15.628906 8.851562 "
+         clip-rule="nonzero"
+         id="path1" />
+    </clipPath>
+    <clipPath
+       id="1bd529e812">
+      <path
+         d="M 37.5 8.851562 C 25.421875 8.851562 15.628906 18.644531 15.628906 30.722656 C 15.628906 42.800781 25.421875 52.59375 37.5 52.59375 C 49.578125 52.59375 59.371094 42.800781 59.371094 30.722656 C 59.371094 18.644531 49.578125 8.851562 37.5 8.851562 Z M 37.5 8.851562 "
+         clip-rule="nonzero"
+         id="path2" />
+    </clipPath>
+  </defs>
+  <path
+     fill="#ffffff"
+     d="M 187.5 194.515625 C 237.699219 194.515625 278.535156 141.238281 278.535156 91.042969 C 278.535156 40.847656 237.699219 0 187.5 0 C 137.300781 0 96.460938 40.847656 96.460938 91.042969 C 96.472656 141.234375 137.304688 194.515625 187.5 194.515625 Z M 187.5 194.515625 "
+     fill-opacity="1"
+     fill-rule="nonzero"
+     id="path4" />
+  <path
+     fill="#ffffff"
+     d="M 255.839844 195.449219 C 238.183594 208.902344 216.152344 216.910156 192.292969 216.910156 L 182.707031 216.910156 C 158.839844 216.910156 136.808594 208.898438 119.152344 195.449219 C 61.496094 204.769531 17.464844 254.746094 17.464844 315.027344 C 17.464844 348.144531 93.589844 375 187.5 375 C 281.402344 375 357.535156 348.144531 357.535156 315.027344 C 357.535156 254.746094 313.5 204.769531 255.839844 195.449219 Z M 255.839844 195.449219 "
+     fill-opacity="1"
+     fill-rule="nonzero"
+     id="path5" />
+</svg>
