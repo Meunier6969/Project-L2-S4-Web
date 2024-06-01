@@ -17,19 +17,24 @@ body {
 	flex-direction: column;
 	align-items: center;
 
-	/* Center the div */
 	width: 100%;
 	margin: 0 auto;
 }
 
 footer {
 	position: fixed;
-	right: 1%;
-	bottom: 1%;
-
-    /* align-items: end; */
+	right: 2%;
+	bottom: 2%;
+	text-align: end;
 }
 
-#ab-us {
+footer p {
+    display: inline;
+	line-height: 25pt;
+    font-weight: 350;
+	font-size: smaller;
+}
+
+footer p a {
     color: var(--white);
 }
