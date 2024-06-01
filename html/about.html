@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="../css/main-style.css">
 	<link rel="icon" type="image/png" href="../img/Penser_logo.png">
     
+	<script src="../js/retractsidebar.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -18,15 +20,34 @@
 
 <body>
 	<header id="side-bar">
-		<div id="side-bar-logo"></div>
-		<div id="side-bar-tabs">
-			<div id="side-bar-tabs-home"></div>
-			<div id="side-bar-tabs-search"></div>
-			<div id="side-bar-tabs-achievement"></div>
+		<div id="side-bar-icons">
+			<div id="side-bar-icons-logo"></div>
+			<div id="side-bar-icons-tabs">
+				<div id="side-bar-icons-home"></div>
+				<div id="side-bar-icons-search"></div>
+				<div id="side-bar-icons-achievement"></div>
+			</div>
+			<div id="side-bar-icons-pied">
+				<div id="side-bar-icons-profile"></div>
+				<div id="side-bar-icons-parameters"></div>
+			</div>
 		</div>
-		<div id="side-bar-pied">
-			<div id="side-bar-pied-profile"></div>
-			<div id="side-bar-pied-parameters"></div>
+	
+		<div id="side-bar-left">
+			<div id="side-bar-logo"></div>
+			<div id="side-bar-tabs">
+				<div id="side-bar-tabs-home"></div>
+				<div id="side-bar-tabs-search"></div>
+				<div id="side-bar-tabs-achievement"></div>
+			</div>
+			<div id="side-bar-pied">
+				<div id="side-bar-pied-profile"></div>
+				<div id="side-bar-pied-parameters"></div>
+			</div>
+		</div>
+	
+		<div id="side-bar-arrow">
+			<div id="side-bar-retractationarrow" onclick="retract()"></div>
 		</div>
 	</header>
 
