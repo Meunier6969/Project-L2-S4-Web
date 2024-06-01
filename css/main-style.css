@@ -32,10 +32,14 @@ footer {
 	position: fixed;
 	right: 1%;
 	bottom: 1%;
-
-    align-items: end;
+	text-align: end;
 }
 
-#ab-us {
+footer p {
+    font-weight: 350;
+    display: inline;
+}
+
+footer p a {
     color: var(--white);
 }
