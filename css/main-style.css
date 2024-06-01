@@ -29,6 +29,10 @@ body {
 }
 
 footer {
+	position: fixed;
+	right: 1%;
+	bottom: 1%;
+
     align-items: end;
 }
 
