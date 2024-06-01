@@ -1,0 +1,23 @@
+#stories {
+	width: 50em;
+	height: 5em;
+	
+	margin: auto;
+	margin-top: 1em;
+
+	display: inline-flex;
+	flex-direction: row;
+
+	background-color: chartreuse;
+
+	overflow: auto;
+}
+
+.stories-people {
+	margin: auto;
+
+	height: 80%;
+	width: auto;
+	aspect-ratio: 1;
+	background-color: aquamarine;
+}

@@ -4,13 +4,3 @@
 				  radial-gradient(ellipse 100% 100% at 100% 100%, #1B1E37 35%, transparent), black;
 	--test: rgb(255, 167, 243);
 }
-
-html {
-	height: 100%;
-}
-
-body {
-	color: var(--white);
-	background: var(--purpleBlue);
-	background-attachment: fixed;
-}

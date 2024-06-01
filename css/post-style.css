@@ -1,3 +1,9 @@
+.posts {
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+}
+
 .penser-post {
 	background-color: antiquewhite;
 	display: flex;
@@ -6,7 +12,9 @@
 	height: 39em;
 
 	margin: auto;
+	margin-top: 2em;
 
+	border-radius: 20px;
 }
 
 .penser-post-header {
