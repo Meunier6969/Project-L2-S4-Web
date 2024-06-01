@@ -1,4 +1,4 @@
-#stories {
+#categories {
 	width: 50em;
 	height: 5em;
 	
@@ -14,7 +14,7 @@
 	overflow: auto;
 }
 
-.stories-people {
+.categories-people {
 	margin: 1%;
 
 	height: 80%;
