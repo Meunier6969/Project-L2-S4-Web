@@ -21,6 +21,9 @@ function retractSideBar() {
     
     arrowColumn.style.borderRight = "0pt solid";
     iconsColumn.style.borderRight = "3pt solid var(--grey)";
+    iconsColumn.style.marginLeft = "1em";
+    iconsColumn.style.paddingRight = "1em";
+    iconsColumn.style.marginRight = "0.5em";
 
     retracted = true;
 }
@@ -32,6 +35,9 @@ function openSideBar() {
 
     arrowColumn.style.borderRight = "3pt solid var(--grey)";
     iconsColumn.style.borderRight = "0pt solid";
+    iconsColumn.style.marginLeft = "2.5em";
+    iconsColumn.style.paddingRight = "0.7em";
+    iconsColumn.style.marginRight = "0em";
 
     retracted = false;
 }

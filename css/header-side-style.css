@@ -6,7 +6,7 @@
 	display: flex;
 	flex-direction: row;
 	
-	height: 98%;
+	height: 100%;
 	padding: 0;
 }
 
@@ -14,6 +14,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-left: 2.5em;
+	padding-right: 0.7em;
 
 	width: 3.5em;
 	height: 100%;
@@ -28,6 +30,7 @@
 	align-items: center;
 
 	width: 100%;
+	top: 16.6%;
 }
 
 #side-bar-icons-logo {
@@ -37,6 +40,8 @@
 
 #side-bar-icons-tabs {
 	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 6.2em;
 
 	/* background-color: rgb(7, 4, 2); */
 	height: auto;
@@ -49,11 +54,24 @@
 	height: 3em;
 }
 
+#side-bar-icons-tabs * img {
+	margin: 0;
+	height: 85%;
+	transform: translate(0, 8.5%);
+}
+
 #side-bar-icons-pied {
 	margin-top: auto;
+	margin-bottom: 1.65em;
 	height: auto;
 
 	/* background-color: crimson; */
+}
+
+#side-bar-icons-pied * img {
+	margin: 0;
+	height: 85%;
+	transform: translate(0, 8.5%);
 }
 
 #side-bar-icons-pied * {
@@ -68,7 +86,7 @@
 	flex-direction: column;
 	align-items: center;
 
-	width: 17em;
+	width: 14em;
 	height: 100%;
 	/* background-color: aqua; */
 }
@@ -88,6 +106,8 @@
 
 #side-bar-tabs {
 	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 6.2em;
 
 	/* background-color: chartreuse; */
 	height: auto;
@@ -98,10 +118,16 @@
 	/* background-color: var(--test); */
 	width: 90%;
 	height: 3em;
+
+}
+
+#side-bar-tabs * span {
+	margin: 0;
 }
 
 #side-bar-pied {
 	margin-top: auto;
+	margin-bottom: 1.65em;
 	height: auto;
 	
 	/* background-color: crimson; */
@@ -112,6 +138,10 @@
 	/* background-color: chartreuse; */
 	width: 95%;
 	height: 3em;
+}
+
+#side-bar-pied * span {
+	margin: 0;
 }
 
 #side-bar-arrow {
@@ -145,19 +175,24 @@
 #side-bar-logo-title {
 	position: fixed;
 	/*left: 4%;*/
-	top: 1%;
-	transform: translate(36.6%, 0);
+	top: .25em;
+	transform: translate(72%, 0);
 }
 
 #side-bar-logo-title img {
 	height: auto;
-	width: 12em;
+	width: 9em;
 }
 
 .side-bar-text {
 	position: relative;
-	top: 20%;
 	color: var(--white);
-	font-size: 130%;
 	text-align: left;
+	font-size: 150%;
+	font-weight: 400;
+	top: 10%;
+}
+
+#side-bar-pied-parameters .side-bar-text {
+	color: var(--grey);
 }
