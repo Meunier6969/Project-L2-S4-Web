@@ -73,7 +73,7 @@
 	/* background-color: aqua; */
 }
 
-#side-bar-left * {
+#side-bar-left > div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -89,14 +89,14 @@
 #side-bar-tabs {
 	margin-top: auto;
 
-	/* background-color: var(--test); */
+	/* background-color: chartreuse; */
 	height: auto;
 }
 
 #side-bar-tabs * {
 	margin: 0.4em 0;
-	/* background-color: chartreuse; */
-	width: 95%;
+	/* background-color: var(--test); */
+	width: 90%;
 	height: 3em;
 }
 
@@ -155,6 +155,9 @@
 }
 
 .side-bar-text {
+	position: relative;
+	top: 20%;
 	color: var(--white);
+	font-size: 130%;
 	text-align: left;
 }
