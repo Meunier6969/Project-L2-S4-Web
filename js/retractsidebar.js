@@ -20,7 +20,7 @@ function retractSideBar() {
     arrow.style.transform = "scaleX(-1)";
     
     arrowColumn.style.borderRight = "0pt solid";
-    iconsColumn.style.borderRight = "3pt solid";
+    iconsColumn.style.borderRight = "3pt solid var(--grey)";
 
     retracted = true;
 }
@@ -30,7 +30,7 @@ function openSideBar() {
     // arrowColumn.style.backgroundColor = "coral";
     arrow.style.transform = "scaleX(1)";
 
-    arrowColumn.style.borderRight = "3pt solid";
+    arrowColumn.style.borderRight = "3pt solid var(--grey)";
     iconsColumn.style.borderRight = "0pt solid";
 
     retracted = false;

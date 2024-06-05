@@ -7,7 +7,7 @@
 	flex-direction: row;
 	
 	height: 98%;
-	padding: 0.5em;
+	padding: 0;
 }
 
 #side-bar-icons {
@@ -124,26 +124,29 @@
 	width: 2em;
 	height: 100%;
 
-	border-right: 3pt solid;
+	border-right: 3pt solid var(--grey);
+	padding-right: .5em;
+	padding-left: .5em;
 }
 
 #side-bar-retractationarrow {
 	/* background-color: brown; */
-	width: 2em;
-	height: 2em;
+	width: auto;
+	height: auto;
 
 	align-items: center;
 }
 
 #side-bar-retractationarrow img {
-	height: 2em;
-	margin: auto;
+	height: 1.23em;
+	transform: translate(50%, 12.5%);
 }
 
 #side-bar-logo-title {
 	position: fixed;
-	left: 5%;
+	/*left: 4%;*/
 	top: 1%;
+	transform: translate(36.6%, 0);
 }
 
 #side-bar-logo-title img {
