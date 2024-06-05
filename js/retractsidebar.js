@@ -27,7 +27,7 @@ function retractSideBar() {
 
 function openSideBar() {
     sideBar.style.display = "flex";
-    arrowColumn.style.backgroundColor = "coral";
+    // arrowColumn.style.backgroundColor = "coral";
     arrow.style.transform = "scaleX(1)";
 
     arrowColumn.style.borderRight = "3pt solid";

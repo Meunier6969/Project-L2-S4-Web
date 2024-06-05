@@ -6,7 +6,8 @@
 	display: flex;
 	flex-direction: row;
 	
-	height: 100%;
+	height: 98%;
+	padding: 0.5em;
 }
 
 #side-bar-icons {
@@ -16,7 +17,7 @@
 
 	width: 3.5em;
 	height: 100%;
-	background-color: rgb(0, 153, 255);
+	/* background-color: rgb(0, 153, 255); */
 
 	border-right: 1em solid;
 }
@@ -30,20 +31,20 @@
 }
 
 #side-bar-icons-logo {
-	background-color: rgb(111, 0, 255);
+	/* background-color: rgb(111, 0, 255); */
 	height: 5em;
 }
 
 #side-bar-icons-tabs {
 	margin-top: auto;
 
-	background-color: rgb(7, 4, 2);
+	/* background-color: rgb(7, 4, 2); */
 	height: auto;
 }
 
 #side-bar-icons-tabs * {
 	margin: 0.4em 0;
-	background-color: chartreuse;
+	/* background-color: chartreuse; */
 	width: 100%;
 	height: 3em;
 }
@@ -52,12 +53,12 @@
 	margin-top: auto;
 	height: auto;
 
-	background-color: crimson;
+	/* background-color: crimson; */
 }
 
 #side-bar-icons-pied * {
 	margin: 0.4em;
-	background-color: chartreuse;
+	/* background-color: chartreuse; */
 	width: 100%;
 	height: 3em;
 }
@@ -69,7 +70,7 @@
 
 	width: 17em;
 	height: 100%;
-	background-color: aqua;
+	/* background-color: aqua; */
 }
 
 #side-bar-left * {
@@ -81,20 +82,20 @@
 }
 
 #side-bar-logo {
-	background-color: blue;
+	/* background-color: blue; */
 	height: 5em;
 }
 
 #side-bar-tabs {
 	margin-top: auto;
 
-	background-color: var(--test);
+	/* background-color: var(--test); */
 	height: auto;
 }
 
 #side-bar-tabs * {
 	margin: 0.4em 0;
-	background-color: chartreuse;
+	/* background-color: chartreuse; */
 	width: 95%;
 	height: 3em;
 }
@@ -103,12 +104,12 @@
 	margin-top: auto;
 	height: auto;
 	
-	background-color: crimson;
+	/* background-color: crimson; */
 }
 
 #side-bar-pied * {
 	margin: 0.4em;
-	background-color: chartreuse;
+	/* background-color: chartreuse; */
 	width: 95%;
 	height: 3em;
 }
@@ -119,7 +120,7 @@
 
 	justify-content: center;
 
-	background-color: coral;
+	/* background-color: coral; */
 	width: 2em;
 	height: 100%;
 
@@ -127,7 +128,7 @@
 }
 
 #side-bar-retractationarrow {
-	background-color: brown;
+	/* background-color: brown; */
 	width: 2em;
 	height: 2em;
 
@@ -148,4 +149,9 @@
 #side-bar-logo-title img {
 	height: auto;
 	width: 12em;
+}
+
+.side-bar-text {
+	color: var(--white);
+	text-align: left;
 }
