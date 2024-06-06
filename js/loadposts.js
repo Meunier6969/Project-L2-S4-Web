@@ -1,26 +1,28 @@
 // posts/json/posts.json
 
-const defaultPostClass = `penser-post`;
+const defaultPostClass = `penser-post-border`;
 const defaultPostInner = `
-<div class="penser-post-header">
-	<div class="penser-post-header-user">
-		<div class="penser-post-header-icon"></div>
-		<div class="penser-post-header-name"></div>
+<div class="penser-post">
+	<div class="penser-post-header">
+		<div class="penser-post-header-user">
+			<div class="penser-post-header-icon"></div>
+			<div class="penser-post-header-name"></div>
+		</div>
+		<div class="penser-post-header-menu"></div>
 	</div>
-	<div class="penser-post-header-menu"></div>
-</div>
-<div class="penser-post-post"></div>
-<div class="penser-post-footer">
-	<div class="penser-post-footer-reacts">
-		<div class="penser-post-footer-reacts-heart"></div>
-		<div class="penser-post-footer-reacts-wholiked"></div>
-		<div class="penser-post-footer-reacts-star"></div>
-	</div>
-	<div class="penser-post-footer-description"></div>
-	<div class="penser-post-footer-time"></div>
-	<div class="penser-post-footer-comments">
-		<div class="penser-post-footer-comments-text"></div>
-		<div class="penser-post-footer-comments-icon"></div>
+	<div class="penser-post-post"></div>
+	<div class="penser-post-footer">
+		<div class="penser-post-footer-reacts">
+			<div class="penser-post-footer-reacts-heart"></div>
+			<div class="penser-post-footer-reacts-wholiked"></div>
+			<div class="penser-post-footer-reacts-star"></div>
+		</div>
+		<div class="penser-post-footer-description"></div>
+		<div class="penser-post-footer-time"></div>
+		<div class="penser-post-footer-comments">
+			<div class="penser-post-footer-comments-text"></div>
+			<div class="penser-post-footer-comments-icon"></div>
+		</div>
 	</div>
 </div>
 `;

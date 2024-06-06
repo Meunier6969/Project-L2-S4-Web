@@ -8,18 +8,28 @@
 	background-color: var(--dark-grey);
 	display: flex;
 	flex-direction: column;
+	margin: .35em;
+	
 	width: 26em;
 	height: 39em;
-
-	margin: auto;
-	margin-top: 2em;
 
 	overflow: hidden;
 	border-radius: 20px;
 }
 
+.penser-post-border {
+	background: var(--math);
+	background-clip: padding-box;
+
+	margin: auto;
+	margin-top: 2em;
+
+	overflow: hidden;
+	border-radius: 25px;
+}
+
 .penser-post-header {
-	background-color: blueviolet;
+	/*background-color: blueviolet;*/
 	height: 10%;
 
 	display: flex;
@@ -29,7 +39,7 @@
 }
 
 .penser-post-header-user {
-	background-color: orange;
+	/*background-color: orange;*/
 	margin-right: auto;
 
 	display: flex;
@@ -40,20 +50,20 @@
 }
 
 .penser-post-header-icon {
-	background-color: red;
+	/*background-color: red;*/
 	height: 100%;
 	aspect-ratio: 1;
 }
 
 .penser-post-header-name {
-	background-color: orangered;
+	/*background-color: orangered;*/
 	height: 100%;
 	width: 80%;
 	/* aspect-ratio: 1; */
 }
 
 .penser-post-header-menu {
-	background-color: yellow;
+	/*background-color: yellow;*/
 
 	margin-left: auto;
 
@@ -62,14 +72,14 @@
 }
 
 .penser-post-footer {
-	background-color: cyan;
+	/*background-color: cyan;*/
 	height: 20%;
 	
 	margin-top: auto;
 }
 
 .penser-post-post {
-	background-color: blue;
+	/*background-color: blue;*/
 	margin: auto;
 	width: 90%;
 	padding-bottom: 90%;
