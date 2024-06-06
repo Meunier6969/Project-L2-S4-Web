@@ -1,0 +1,25 @@
+{
+	"posts" : [
+		{
+			"id": 1,
+			"user": "Kurzgesagt - In a Nutshell",
+			"user_id": "@kurzgesagt",
+			"user_icon": "Kurzgesagt_profile.png",
+			"post": "Kurzgesagt_post_1.png",
+			"description": "Did you know it ?",
+	
+			"likes": 11,
+			"comments": 10
+		},
+		{
+			"id": 2,
+			"user": "Bing",
+			"user_id": "@chilling",
+			"user_icon": "Kurzgesagt_profile.png",
+			"post": "Kurzgesagt_post_1.png",
+			"description": "Did you know it ?",
+			"likes": 11,
+			"comments": 10
+		}
+	]
+}
