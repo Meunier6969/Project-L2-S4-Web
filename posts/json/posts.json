@@ -13,13 +13,23 @@
 		},
 		{
 			"id": 2,
+			"user": "Fabien Olicar",
+			"user_id": "@fabienolicar",
+			"user_icon": "Olicar_profile.png",
+			"post": "Olicar_post_1.png",
+			"description": "Fallait y-penser.",
+			"likes": 15,
+			"comments": 9
+		},
+		{
+			"id": 3,
 			"user": "Bing",
 			"user_id": "@chilling",
-			"user_icon": "Kurzgesagt_profile.png",
-			"post": "Kurzgesagt_post_1.png",
-			"description": "Did you know it ?",
-			"likes": 11,
-			"comments": 10
+			"user_icon": "No_profile.png",
+			"post": "",
+			"description": "im die thank you foever", 
+			"likes": 6,
+			"comments": 9
 		}
 	]
 }
