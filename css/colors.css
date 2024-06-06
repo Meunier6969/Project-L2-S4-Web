@@ -14,8 +14,8 @@
 			radial-gradient(ellipse 175% 175% at 0% 0%, #7D8AFA 35%, transparent);
 	--physics: radial-gradient(ellipse 175% 175% at 0% 0%, #C4659F 35%, transparent), 
 			radial-gradient(ellipse 175% 175% at 100% 100%, #FFC000 35%, transparent);
-	--mentalism: radial-gradient(ellipse 175% 175% at 100% 100%, #F2D0A9 35%, transparent), 
-			radial-gradient(ellipse 175% 175% at 0% 0%, #C4659F 35%, transparent);
+	--mentalism: radial-gradient(ellipse 115% 115% at 100% 100%, #F2D0A9 35%, transparent), 
+			radial-gradient(ellipse 195% 195% at 0% 0%, #C4659F 35%, transparent);
 	--other: radial-gradient(ellipse 175% 175% at 100% 100%, #C4659F 35%, transparent), 
 			radial-gradient(ellipse 175% 175% at 0% 0%, #7D8AFA 35%, transparent);
 }
