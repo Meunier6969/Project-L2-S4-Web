@@ -21,7 +21,7 @@
 	height: 100%;
 	/* background-color: rgb(0, 153, 255); */
 
-	border-right: 1em solid;
+	border-right: .3em solid;
 }
 
 #side-bar-icons * {
@@ -169,7 +169,7 @@
 
 #side-bar-retractationarrow img {
 	height: 1.23em;
-	transform: translate(50%, 12.5%);
+	transform: translate(50%, 12.5%), scaleX(1);
 }
 
 #side-bar-logo-title {

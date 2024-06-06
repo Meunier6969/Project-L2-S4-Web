@@ -1,6 +1,6 @@
 #categories {
 	width: 50em;
-	height: 5em;
+	height: auto;
 	
 	margin: auto;
 	margin-top: 1em;
@@ -9,17 +9,39 @@
 	flex-direction: row;
 	justify-content: start;
 
-	background-color: chartreuse;
+	/* background-color: chartreuse; */
+
+	border-bottom: 3pt solid var(--grey);
 
 	overflow: auto;
 }
 
-.categories-people {
-	margin: 1%;
+#categories ol {
+	list-style-type: none;
+    padding-left: 0;
+	margin: 0;
+}
+
+#categories ol li {
+	display: inline-block;
+
+	margin-bottom: .2em;
+	margin-right: 0.6em;
+	margin-left: 0.6em;
 
 	height: 80%;
 	width: auto;
-	aspect-ratio: 1/1;
+	
+	/* aspect-ratio: 1/1; S*/
 
-	background-color: aquamarine;
+	font-size: 1.3em;
+	font-weight: 400;
+	color: var(--grey);
+
+	/* background-color: aquamarine; */
+}
+
+#categories ol li:first-child {
+	margin-left: 0;
+	color: var(--white);
 }

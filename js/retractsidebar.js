@@ -41,3 +41,14 @@ function openSideBar() {
 
     retracted = false;
 }
+
+function verifyIfRectractation() {
+    if(window.innerWidth < 0.765 * window.screen.availWidth){
+        retractSideBar();
+    }
+    else if (window.innerWidth > 0.765 * window.screen.availWidth) {
+        openSideBar();
+    }
+}
+
+window.addEventListener('resize', verifyIfRectractation);
