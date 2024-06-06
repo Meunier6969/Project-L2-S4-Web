@@ -26,6 +26,13 @@
 
 	overflow: hidden;
 	border-radius: 25px;
+
+}
+
+.penser-post img {
+	margin: 1%;
+	height: 98%;
+	border-radius:3%;
 }
 
 .penser-post-header {
@@ -57,9 +64,11 @@
 
 .penser-post-header-name {
 	/*background-color: orangered;*/
-	height: 100%;
-	width: 80%;
+	height: 70%;
+	width: 70%;
 	/* aspect-ratio: 1; */
+	padding-top: 4%;
+	padding-left: 6%;
 }
 
 .penser-post-header-menu {
@@ -78,13 +87,76 @@
 	margin-top: auto;
 }
 
+.penser-post-footer-reacts {
+	background-color: brown;
+	height: 30%;
+}
+
+.penser-post-footer-reacts-heart img,
+.penser-post-footer-reacts-star img {
+	height: 2em;
+	aspect-ratio: 1;
+}
+
+.penser-post-footer-reacts-heart:nth-child(1) {
+    margin-right: 10px;
+}
+
+.penser-post-footer-reacts {
+	justify-content: space-between;
+	display: flex;
+}
+
+.penser-post-footer-reacts span {
+	margin-top: 8px;
+	margin-left: 0px;
+	margin-right: auto;
+}
+
 .penser-post-post {
 	/*background-color: blue;*/
 	margin: auto;
 	width: 90%;
-	padding-bottom: 90%;
+	aspect-ratio: 1;
+	/* padding-bottom: 90%; */
+	overflow: hidden;
+	border-radius: 4%;
 }
 
+.penser-post-footer-description {
+	padding: 5px 10px 0px 10px;
+	color: black;
+	font-size: 0.8em;
+}
+
+.penser-post-footer-time {
+	padding: 10px 10px 10px 10px;
+	color: gray;
+	font-style: italic;
+}
+
+.penser-post-footer-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.penser-post-footer-comments img {
+	height: 1.5em;
+	margin-right: 10px;
+	margin-top: 10px
+}
+.penser-post-footer-comments {
+	padding: 0px 10px 10px 0px;
+	margin-top: 0px;
+	color: gray;
+	font-style: italic;
+	display: flex;
+	justify-content: space-between;
+}
+.penser-post-footer-comments span {
+	padding-top: 10px;
+	margin-right: 10px;
+}
 .physics {
 	background: var(--physics);
 }
