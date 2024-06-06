@@ -157,3 +157,14 @@
 	padding-top: 10px;
 	margin-right: 10px;
 }
+.physics {
+	background: var(--physics);
+}
+
+.mentalism {
+	background: var(--mentalism);
+}
+
+.other {
+	background: var(--other);
+}

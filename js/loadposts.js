@@ -40,6 +40,7 @@ getPosts().then((response) => {
 		// Default values for post
 		let newPost = document.createElement("div");
 		newPost.className = defaultPostClass;
+		newPost.classList.add(post.category);
 		newPost.innerHTML = defaultPostInner;
 
 		// 
