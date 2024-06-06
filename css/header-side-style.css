@@ -21,7 +21,7 @@
 	height: 100%;
 	/* background-color: rgb(0, 153, 255); */
 
-	border-right: .3em solid;
+	/* border-right: .3em solid; */
 }
 
 #side-bar-icons * {
@@ -136,7 +136,7 @@
 #side-bar-pied * {
 	margin: 0.4em;
 	/* background-color: chartreuse; */
-	width: 95%;
+	width: 90%;
 	height: 3em;
 }
 
