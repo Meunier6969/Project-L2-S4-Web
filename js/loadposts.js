@@ -35,9 +35,14 @@ async function getPosts () {
 
 getPosts().then((response) => {
 	response.posts.forEach((post) => {
+		// Default values for post
 		let newPost = document.createElement("div");
 		newPost.className = defaultPostClass;
 		newPost.innerHTML = defaultPostInner;
+
+		// 
+
+		// Adding the post to the page
 		postDiv.appendChild(newPost);
 	});
 });
