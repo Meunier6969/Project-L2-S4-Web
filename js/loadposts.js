@@ -39,6 +39,7 @@ getPosts().then((response) => {
 	response.posts.forEach((post) => {
 		let newPost = document.createElement("div");
 		newPost.className = defaultPostClass;
+		newPost.classList.add(post.category);
 		newPost.innerHTML = defaultPostInner;
 		postDiv.appendChild(newPost);
 	});
