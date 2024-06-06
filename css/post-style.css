@@ -5,7 +5,7 @@
 }
 
 .penser-post {
-	background-color: antiquewhite;
+	background-color: var(--dark-grey);
 	display: flex;
 	flex-direction: column;
 	width: 26em;
