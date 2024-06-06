@@ -17,7 +17,7 @@
 
 #bottom-bar-icons {
 	display: flex;
-	margin-bottom: 1em;
+	margin-bottom: 1.3em;
 	padding-top: 1em;
 
 	width: 100%;
@@ -35,11 +35,10 @@
 
 #bottom-bar-icons-logo {
 	/* background-color: rgb(111, 0, 255); */
-	height: 10em;
+	/* height: 15em; */
 }
 
 #bottom-bar-icons-tabs {
-
 	/* background-color: rgb(7, 4, 2); */
 	height: auto;
 }
@@ -51,7 +50,7 @@
 
 #bottom-bar-icons-tabs * img {
 	margin: 0;
-    height: 2em;
+    height: 2.5em;
 	transform: translate(0, 8.5%);
 }
 
@@ -64,10 +63,21 @@
 	position: fixed;
 	/*left: 4%;*/
 	top: .45em;
-	transform: translate(72%, 0);
+	transform: translate(12%, 0);
 }
 
 #bottom-bar-logo-title img {
 	height: auto;
-	width: 9em;
+	width: 7em;
+}
+
+#categories {
+    margin-top: 4em;
+    margin-right: 1em; 
+    margin-left: 1em; 
+	width: 26em;
+}
+
+.penser-post {
+    background: var(--gradGrey);
 }
