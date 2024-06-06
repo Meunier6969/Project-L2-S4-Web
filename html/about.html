@@ -10,8 +10,6 @@
 	<link rel="stylesheet" href="../css/about-us-style.css">
 	<link rel="stylesheet" href="../css/main-style.css">
 	<link rel="icon" type="image/png" href="../img/Penser_logo.png">
-    
-	<script src="../js/retractsidebar.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,34 +19,66 @@
 
 <body>
 	<header id="side-bar">
+		<div id="side-bar-logo-title">
+			<img src="../img/Penser_Logo.svg" alt="">
+		</div>
+	
 		<div id="side-bar-icons">
 			<div id="side-bar-icons-logo"></div>
 			<div id="side-bar-icons-tabs">
-				<div id="side-bar-icons-home"></div>
-				<div id="side-bar-icons-search"></div>
-				<div id="side-bar-icons-achievement"></div>
+				<div id="side-bar-icons-home">
+					<img src="../img/home.svg" alt="Home icon">
+				</div>
+				<div id="side-bar-icons-search">
+					<img src="../img/Search.svg" alt="Search incon">
+				</div>
+				<div id="side-bar-icons-achievement">
+					<img src="../img/Achievements.svg" alt="Achievement icon">
+				</div>
+				<div id="side-bar-icons-zapper">
+					<img src="../img/Zapper.svg" alt="Zapper icon">
+				</div>
 			</div>
 			<div id="side-bar-icons-pied">
-				<div id="side-bar-icons-profile"></div>
-				<div id="side-bar-icons-parameters"></div>
+				<div id="side-bar-icons-profile">
+					<img src="../img/no_img_profile.svg" alt="Profile icon">
+				</div>
+				<div id="side-bar-icons-parameters">
+					<img src="../img/parameters.svg" alt="Profile icon">
+				</div>
 			</div>
 		</div>
 	
 		<div id="side-bar-left">
 			<div id="side-bar-logo"></div>
 			<div id="side-bar-tabs">
-				<div id="side-bar-tabs-home"></div>
-				<div id="side-bar-tabs-search"></div>
-				<div id="side-bar-tabs-achievement"></div>
+				<div id="side-bar-tabs-home">
+					<span class="side-bar-text">Home</span>
+				</div>
+				<div id="side-bar-tabs-search">
+					<span class="side-bar-text">Search</span>
+				</div>
+				<div id="side-bar-tabs-achievement">
+					<span class="side-bar-text">Achievements</span>
+				</div>
+				<div id="side-bar-tabs-zapper">
+					<span class="side-bar-text">Zapper</span>
+				</div>
 			</div>
 			<div id="side-bar-pied">
-				<div id="side-bar-pied-profile"></div>
-				<div id="side-bar-pied-parameters"></div>
+				<div id="side-bar-pied-profile">
+					<span class="side-bar-text">Profile</span>
+				</div>
+				<div id="side-bar-pied-parameters">
+					<span class="side-bar-text">Parameters</span>
+				</div>
 			</div>
 		</div>
 	
 		<div id="side-bar-arrow">
-			<div id="side-bar-retractationarrow" onclick="retract()"></div>
+			<div id="side-bar-retractationarrow" onclick="toggleSideBar()">
+				<img src="../img/header_arrow.svg" alt="Retract arrow icon">
+			</div>
 		</div>
 	</header>
 
@@ -95,6 +125,7 @@
 		<p>© 2024 - <i>Penser</i><br><a href="about.html">about us</a></p>
 	</footer>
 
+	<script src="../js/retractsidebar.js"></script>
 </body>
 
 </html>
