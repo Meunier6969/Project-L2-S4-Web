@@ -3,7 +3,7 @@
 		{
 			"id": 1,
 			"user": "Kurzgesagt - In a Nutshell",
-			"user_id": "@kurzgesagt",
+			"user_id": "kurzgesagt",
 			"category": "physics",
 			"user_icon": "Kurzgesagt_profile.png",
 			"post": "Kurzgesagt_post_1.png",
@@ -15,7 +15,7 @@
 		{
 			"id": 2,
 			"user": "Fabien Olicar",
-			"user_id": "@fabienolicar",
+			"user_id": "fabienolicar",
 			"category": "mentalism",
 			"user_icon": "Olicar_profile.png",
 			"post": "Olicar_post_1.png",
@@ -25,12 +25,12 @@
 		},
 		{
 			"id": 3,
-			"user": "Bing",
-			"user_id": "@chilling",
-			"category": "other",
-			"user_icon": "No_profile.png",
+			"user": "",
+			"user_id": "",
+			"category": "",
+			"user_icon": "",
 			"post": "",
-			"description": "im die thank you foever", 
+			"description": "", 
 			"likes": 6,
 			"comments": 9
 		}
