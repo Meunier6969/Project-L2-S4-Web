@@ -14,6 +14,8 @@
 	border-bottom: 3pt solid var(--grey);
 
 	overflow: auto;
+
+	transition: var(--transition1);
 }
 
 #categories ol {
