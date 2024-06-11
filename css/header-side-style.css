@@ -8,6 +8,8 @@
 	
 	height: 100%;
 	padding: 0;
+
+	
 }
 
 #side-bar-icons {
@@ -89,6 +91,10 @@
 	width: 14em;
 	height: 100%;
 	/* background-color: aqua; */
+
+	overflow: hidden;
+
+	transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 #side-bar-left > div {
@@ -195,4 +201,27 @@
 
 #side-bar-pied-parameters .side-bar-text {
 	color: var(--grey);
+}
+
+/* Closing the side bar */
+.side-bar-closed #side-bar-left {
+	/* display: none; */
+	width: 0px;
+}
+
+.side-bar-closed #side-bar-arrow {
+	background-color: rgba(0, 0, 0, 0);
+	border-right: 0pt solid;
+	border-left: 3pt solid var(--grey);
+}
+
+.side-bar-closed #side-bar-icons {
+	
+	margin-left: 1em;
+	margin-right: 0.5em;
+	padding-right: 1em;
+}
+
+.side-bar-closed #side-bar-retractationarrow img {
+	transform: scaleX(-1);
 }
