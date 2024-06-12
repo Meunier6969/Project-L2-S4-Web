@@ -1,3 +1,7 @@
+/* 
+ * File containing color variables used for the site (it is easier to modify them only one time here)
+ */
+
 :root {
 	/* General colors */
 	--transparent: #00000000;
@@ -8,7 +12,6 @@
 	--black: black;
 	--purpleBlue: radial-gradient(ellipse 100% 100% at 0% 0%, #271420 35%, transparent),
 				  radial-gradient(ellipse 100% 100% at 100% 100%, #1B1E37 35%, transparent), black;
-	--test: rgb(255, 167, 243);
 
 	/* Post types */
 	--math: radial-gradient(ellipse 175% 175% at 100% 100%, #C4659F 35%, transparent), 

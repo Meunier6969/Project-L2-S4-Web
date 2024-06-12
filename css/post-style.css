@@ -1,3 +1,7 @@
+/* 
+ * File containing styles used in the pages displaying posts
+ */
+
 .posts {
 	display: flex;
 	flex-direction: column;
@@ -37,7 +41,6 @@
 }
 
 .penser-post-header {
-	/*background-color: blueviolet;*/
 	height: 4em;
 
 	display: flex;
@@ -47,7 +50,6 @@
 }
 
 .penser-post-header-user {
-	/*background-color: orange;*/
 	margin-right: auto;
 
 	display: flex;
@@ -58,16 +60,13 @@
 }
 
 .penser-post-header-icon {
-	/*background-color: red;*/
 	height: 4em;
 	aspect-ratio: 1;
 }
 
 .penser-post-header-name {
-	/*background-color: orangered;*/
 	height: 70%;
 	width: 70%;
-	/* aspect-ratio: 1; */
 	padding-top: .5em;
 	padding-left: .75em;
 	justify-content: justify;
@@ -84,7 +83,6 @@
 }
 
 .penser-post-header-menu {
-	/*background-color: yellow;*/
 
 	margin-left: auto;
 	padding-top: 15px;
@@ -93,14 +91,12 @@
 }
 
 .penser-post-footer {
-	/*background-color: cyan;*/
 	height: 20%;
 	
 	margin-top: auto;
 }
 
 .penser-post-footer-reacts {
-	/* background-color: brown; */
 	height: 30%;
 }
 
@@ -128,16 +124,13 @@
 }
 
 .penser-post-post {
-	/*background-color: blue;*/
 	aspect-ratio: 1;
-	/* padding-bottom: 90%; */
 	overflow: hidden;
 	border-radius: 1em;
 }
 
 .penser-post-footer-description {
 	padding: 5px 10px 0px 10px;
-	/* color: black; */
 	font-size: 0.8em;
 }
 

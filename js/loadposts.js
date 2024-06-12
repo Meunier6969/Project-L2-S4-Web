@@ -64,7 +64,6 @@ getPosts().then((response) => {
 		newPost.innerHTML = defaultPostInner;
 
 		// Adding posts content
-		
 		if (post.user !== "")
 			newPost.querySelector(".penser-post-header-name-name").innerHTML = post.user
 		if (post.user_id !== "")

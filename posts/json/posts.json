@@ -10,7 +10,9 @@
 			"description": "Did you know it ?",
 	
 			"likes": 11,
-			"comments": 10
+			"comments": 10,
+
+			"key_words": "wavelenght, energy, law, modern, quantic, waves, wave"
 		},
 		{
 			"id": 2,
@@ -20,8 +22,11 @@
 			"user_icon": "Olicar_profile.png",
 			"post": "Olicar_post_1.png",
 			"description": "Fallait y-penser.",
+
 			"likes": 15,
-			"comments": 9
+			"comments": 9,
+
+			"key_words": "public"
 		},
 		{
 			"id": 3,
@@ -32,7 +37,9 @@
 			"post": "",
 			"description": "", 
 			"likes": 6,
-			"comments": 9
+			"comments": 9,
+
+			"key_words": ""
 		}
 	]
 }
