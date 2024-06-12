@@ -9,7 +9,7 @@ const defaultPostInner = `
 					<img src="../posts/img/No_profile.png" alt="Profile Icon">
 				</div>
 				<div class="penser-post-header-name">
-					<span class="penser-post-header-name-name">PLACEHOLDER NAME</span>
+					<span class="penser-post-header-name-name">PLACEHOLDER NAME</span><br>
 					<span class="penser-post-header-name-at">@SOMEONE</span>
 				</div>
 			</div>
@@ -23,7 +23,7 @@ const defaultPostInner = `
 		<div class="penser-post-footer">
 			<div class="penser-post-footer-reacts">
 				<div class="penser-post-footer-reacts-heart">
-					<img src="../img/like.svg" alt="Profile Icon">
+					<img src="../img/like.svg" alt="Like Icon">
 				</div>
 				<span class="penser-post-footer-reacts-likesnumber">LIKES</span>
 				<div class="penser-post-footer-reacts-star">

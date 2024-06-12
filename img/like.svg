@@ -7,8 +7,30 @@
    preserveAspectRatio="xMidYMid meet"
    version="1.0"
    id="svg4"
+   sodipodi:docname="like.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.137"
+     inkscape:cx="461.74142"
+     inkscape:cy="1.3192612"
+     inkscape:window-width="2560"
+     inkscape:window-height="1351"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
   <defs
      id="defs2">
     <clipPath
@@ -34,8 +56,11 @@
     </clipPath>
   </defs>
   <path
+     fill="#c6302c"
+     d="M 349.37573,111.53598 C 331.01045,17.097645 215.88894,15.518202 187.50001,103.80287 159.11106,15.518202 43.989558,17.097645 25.624268,111.53598 8.9614946,197.21559 187.50001,332.39122 187.50001,332.39122 c 0,0 178.5385,-135.17563 161.87572,-220.85524 z"
+     fill-opacity="1"
+     fill-rule="nonzero"
      id="path3-0"
-     style="fill:#ff0020;fill-opacity:1"
-     d="M 53.659277 44.840189 C 33.878046 45.505228 14.812356 59.218718 9.5662671 86.195253 C 0.046745579 135.14442 102.04688 212.37137 102.04688 212.37137 C 102.04688 212.37137 204.04702 135.14442 194.52749 86.195253 C 184.03532 32.242183 118.26561 31.339555 102.04688 81.777005 C 93.937507 56.55828 73.440508 44.175151 53.659277 44.840189 z M 60.589976 63.743948 C 77.53779 63.198871 95.09907 73.349449 102.04688 94.019203 C 115.94247 52.679694 172.29145 53.419247 181.28074 97.640217 C 189.43672 137.75991 102.04688 201.05588 102.04688 201.05588 C 102.04688 201.05588 14.657041 137.75991 22.81301 97.640217 C 27.307661 75.529732 43.642162 64.289025 60.589976 63.743948 z "
-     transform="matrix(2.0137984,0,0,2.0137984,-18.001838,-72.839629)" />
+     sodipodi:nodetypes="ccccc"
+     style="fill:none;fill-opacity:1;stroke:#ff0020;stroke-width:48.892;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
 </svg>
