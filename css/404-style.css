@@ -13,7 +13,7 @@ h1 {
 }
 
 canvas {
-	/*border: 0.1em solid var(--grey);*/
+	border: 0.2em solid var(--grey);
 	border-radius: .3em;
 }
 
