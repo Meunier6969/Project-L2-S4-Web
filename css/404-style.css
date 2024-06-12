@@ -1,0 +1,25 @@
+h1 {
+    margin-top: .3em;
+	margin-bottom: 1em;
+    text-align: center;
+	font-size: 3.5em;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.comming-soon {
+	font-style: normal;
+	margin-bottom: 0;
+}
+
+canvas {
+	/*border: 0.1em solid var(--grey);*/
+	border-radius: .3em;
+}
+
+p {	
+	font-weight: 300;
+	text-align: justify;
+	overflow-wrap: normal;
+	margin: 0;
+}

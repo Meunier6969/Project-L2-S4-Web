@@ -45,6 +45,11 @@ footer p a {
     color: var(--white);
 }
 
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
 #tab {
 	white-space: pre-wrap;
 	tab-size: 10;

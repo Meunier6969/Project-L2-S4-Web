@@ -10,13 +10,14 @@
 	<link rel="stylesheet" href="../css/post-style.css">
 	<link rel="stylesheet" href="../css/categories-style.css">
 	<link rel="stylesheet" href="../css/header-side-style.css">
+	<link rel="stylesheet" href="../css/404-style.css">
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	
 	<link rel="icon" type="image/png" href="../img/Penser_logo.png">
-	<title>Penser</title>
+	<title>Penser | 404</title>
 </head>
 
 <body>
@@ -31,13 +32,13 @@
 				<a id="side-bar-icons-home">
 					<img src="../img/home.svg" alt="Home icon">
 				</a>
-				<a id="side-bar-icons-search" href="404.html">
+				<a id="side-bar-icons-search">
 					<img src="../img/Search.svg" alt="Search incon">
 				</a>
-				<a id="side-bar-icons-achievement" href="404.html">
+				<a id="side-bar-icons-achievement">
 					<img src="../img/Achievements.svg" alt="Achievement icon">
 				</a>
-				<a id="side-bar-icons-zapper" href="404.html">
+				<a id="side-bar-icons-zapper">
 					<img src="../img/Zapper.svg" alt="Zapper icon">
 				</a>
 			</div>
@@ -45,7 +46,7 @@
 				<a href="profile.html" id="side-bar-icons-profile">
 					<img src="../img/no_img_profile.svg" alt="Profile icon">
 				</a>
-				<a id="side-bar-icons-parameters" href="404.html">
+				<a id="side-bar-icons-parameters">
 					<img src="../img/parameters.svg" alt="Profile icon">
 				</a>
 			</div>
@@ -54,24 +55,24 @@
 		<div id="side-bar-left">
 			<div id="side-bar-logo"></div>
 			<div id="side-bar-tabs">
-				<a id="side-bar-tabs-home" href="home.html">
+				<a id="side-bar-tabs-home">
 					<span class="side-bar-text">Home</span>
 				</a>
-				<a id="side-bar-tabs-search" href="404.html">
+				<a id="side-bar-tabs-search">
 					<span class="side-bar-text">Search</span>
 				</a>
-				<a id="side-bar-tabs-achievement" href="404.html">
+				<a id="side-bar-tabs-achievement">
 					<span class="side-bar-text">Achievements</span>
 				</a>
-				<a id="side-bar-tabs-zapper" href="404.html">
+				<a id="side-bar-tabs-zapper">
 					<span class="side-bar-text">Zapper</span>
 				</a>
 			</div>
 			<div id="side-bar-pied">
-				<a id="side-bar-pied-profile" href="profile.html">
+				<a href="profile.html" id="side-bar-pied-profile">
 						<span class="side-bar-text">Profile</span>
 				</a>
-				<a id="side-bar-pied-parameters" href="404.html">
+				<a id="side-bar-pied-parameters">
 					<span class="side-bar-text">Parameters</span>
 				</a>
 			</div>
@@ -84,35 +85,28 @@
 		</div>
 	</header>
 
-	<div id="main-content">
-		<nav id="categories">
-			<ol>
-				<li class="categories-Best">
-					<a onclick="bestLine">Best</a>
-				</li>
-				<li class="categories-Quoter">
-					<a onclick="quoterLine">Quoter</a>
-				</li>
-				<li class="categories-Finder">
-					<a onclick="finderLine">Finder</a>
-				</li>
-				<li class="categories-Pict">
-					<a onclick="pictLine">Pict</a>
-				</li>
-			</ol>
-		</nav>
-	
-		<div class="posts">
-			<!-- Post will be appended here by loadposts.js -->
-		</div>
-	</div>
+    
 
+    <div id="main-content">
+        <div id="404-content">
+            <h1>Page 404</h1>
+            <br><br>
+            <h1 class="comming-soon">Comming Soon !</h1>
+            <p>(This page isn't needed for the project)</p>
+            <br>
+            <p>
+                Commands: < ∧ ∨ >
+            </p>
+            <canvas id="stage" height="520" width="520"></canvas>
+        </div>
+    </div>
+    
 	<footer>
 		<p>© 2024 - <i>Penser</i><br><a href="about.html">about us</a></p>
 	</footer>
 
 	<script src="../js/retractsidebar.js"></script>
-	<script src="../js/loadposts.js"></script>
+	<script src="../js/404.js"></script>
 </body>
 
 </html>
