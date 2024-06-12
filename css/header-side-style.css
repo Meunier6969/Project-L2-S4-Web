@@ -166,7 +166,8 @@
 
 #side-bar-retractationarrow img {
 	height: 1.23em;
-	transform: translate(50%, 12.5%), scaleX(1);
+	transform: translate(50%, 12.5%);
+	transform: scaleX(1);
 }
 
 #side-bar-logo-title {
