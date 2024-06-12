@@ -45,3 +45,33 @@
 	margin-left: 0;
 	color: var(--white);
 }
+
+@keyframes desappear {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+.desappear {
+    animation: desappear var(--transition3);
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.appear {
+    animation: appear var(--transition2);
+}

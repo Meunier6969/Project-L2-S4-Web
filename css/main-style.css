@@ -4,6 +4,8 @@
 
 :root {
 	--transition1: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+	--transition2: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+	--transition3: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
 }
 
 html {

@@ -58,12 +58,10 @@ getPosts().then((response) => {
 	response.posts.forEach((post) => {
 		console.log(post)
 
-		// Default values for post
 		let newPost = document.createElement("div");
 		newPost.className = defaultPostClass;
 		newPost.innerHTML = defaultPostInner;
 
-		// Adding posts content
 		if (post.user !== "")
 			newPost.querySelector(".penser-post-header-name-name").innerHTML = post.user
 		if (post.user_id !== "")
@@ -83,7 +81,6 @@ getPosts().then((response) => {
 		newPost.querySelector(".penser-post-footer-reacts-commentsnumber").innerHTML = post.comments
 		newPost.querySelector(".penser-post-footer-time").innerHTML = "6m" + " ago"
 
-		// Adding the post to the page
 		postDiv.appendChild(newPost);
 	});
 });
