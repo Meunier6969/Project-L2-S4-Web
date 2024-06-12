@@ -68,8 +68,19 @@
 	height: 70%;
 	width: 70%;
 	/* aspect-ratio: 1; */
-	padding-top: 4%;
-	padding-left: 6%;
+	padding-top: .3em;
+	padding-left: .75em;
+	justify-content: justify;
+}
+
+.penser-post-header-name-name {
+	margin: 0;
+}
+
+.penser-post-header-name-at {
+	color: var(--grey);
+	font-size: .8em;
+	margin: 0;
 }
 
 .penser-post-header-menu {

@@ -9,8 +9,8 @@ const defaultPostInner = `
 					<img src="../posts/img/No_profile.png" alt="Profile Icon">
 				</div>
 				<div class="penser-post-header-name">
-				<span class="penser-post-header-name-name">PLACEHOLDER NAME</span>
-				<span class="penser-post-header-name-at">(@SOMEONE)</span>
+					<span class="penser-post-header-name-name">PLACEHOLDER NAME</span>
+					<span class="penser-post-header-name-at">@SOMEONE</span>
 				</div>
 			</div>
 			<div class="penser-post-header-menu">
@@ -68,7 +68,7 @@ getPosts().then((response) => {
 		if (post.user !== "")
 			newPost.querySelector(".penser-post-header-name-name").innerHTML = post.user
 		if (post.user_id !== "")
-			newPost.querySelector(".penser-post-header-name-at").innerHTML = "(@" + post.user_id + ")"
+			newPost.querySelector(".penser-post-header-name-at").innerHTML = "@" + post.user_id
 		if (post.user_icon !== "")
 			newPost.querySelector(".penser-post-header-icon img").src = "../posts/img/" + post.user_icon
 

@@ -1,0 +1,98 @@
+.profile-container {
+    width: 50em;
+	margin-bottom: 3em;
+    overflow: hidden;
+}
+
+.profile-header {
+    position: relative;
+}
+
+.cover-img {
+    width: 100%;
+    height: 9em;
+    border-radius: .5em;
+    object-fit: cover;
+}
+
+.profile-img {
+    position: absolute;
+    bottom: 1.4em;
+    left: .5em;
+}
+
+.profile-img img {
+    width: 6.7em;
+    height: 6.7em;
+    border-radius: 50%;
+    border: 0.2em solid var(--white);
+}
+
+.profile-info {
+    padding: 1em 1.2em 1.2em 8.8em;
+}
+
+.profile-name {
+    margin: 0;
+    font-size: 24px;
+    color: var(--white);
+}
+
+.profile-id {
+    margin: 0;
+    font-size: 1em;
+    color: var(--grey);
+}
+
+.profile-bio {
+    font-weight: 300;
+    color: var(--white);
+}
+
+.profile-content {
+    display: flex;
+    padding: 20px;
+}
+
+.profile-posts {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.profile-posts h2 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.profile-sidebar {
+    flex: 1;
+}
+
+.profile-sidebar h2 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.followed {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profiles-preview {
+    background: var(--gradGrey);
+    padding: .5em 1em;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+h2 {
+    font-style: italic;
+}
+
+.penser-post-header-icon, .penser-post-header-icon img {
+    height: 3.5em;
+}
